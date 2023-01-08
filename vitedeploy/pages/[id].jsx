@@ -1,7 +1,6 @@
 import { Button, Heading } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import React from 'react'
-
   const Singlepage = ({post}) => {
     const router=useRouter()
   return (<>
@@ -9,7 +8,6 @@ import React from 'react'
     <div>Singlepage</div>
     <Heading>id:{router.query.id}</Heading>
     <Heading>{post.title}</Heading>
-    {/* <Heading>Page:{router.query.id}</Heading> */}
   </>
   )
 }

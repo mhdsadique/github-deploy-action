@@ -14,8 +14,6 @@ import { useRouter } from 'next/router'
   <meta title='decription' content="blogs,react,js,typecript" />
   <link rel="ico" href="/favicon.ico" />
     </Head>
- 
- 
     <main>
         <Center flexDirection={'column'}>
         {
@@ -29,8 +27,6 @@ import { useRouter } from 'next/router'
     </div>
   )
 }
-
-
 export const  getServerSideProps=async()=>{
     const res=await fetch(`https://vercel-deploy-jade-one.vercel.app/todo`)
     let data=await res.json()

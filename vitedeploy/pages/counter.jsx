@@ -1,6 +1,5 @@
 import { Button, Center, Heading, Stack } from '@chakra-ui/react'
 import { useState } from 'react'
-
  const Counter = () => {
     const [count,setCount]=useState(0)
   return (<>
@@ -15,8 +14,6 @@ import { useState } from 'react'
   </>
   )
 }
-
-
 
 export default Counter
 
